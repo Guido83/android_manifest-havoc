@@ -8,6 +8,10 @@
   <remote  name="havoc-devices"
            fetch="https://github.com/Havoc-Devices"
            revision="pie" />
+    
+  <remote  name="Guido83"
+           fetch="https://github.com/Guido83"
+           revision="pie" />
 
   <!-- General -->
   <project path="art" name="android_art" remote="havoc" />
@@ -55,7 +59,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="havoc" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="havoc" />
+  <project path="frameworks/base" name="android_frameworks_base-havoc" remote="Guido83" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="havoc" />
   <project path="frameworks/havoc" name="android_frameworks_havoc" remote="havoc" />
   <project path="frameworks/native" name="android_frameworks_native" remote="havoc" />
